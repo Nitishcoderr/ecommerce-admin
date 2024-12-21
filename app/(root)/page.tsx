@@ -1,8 +1,9 @@
 import { Button } from "@/components/ui/button";
+import { UserButton } from "@clerk/nextjs";
 
-export default function Home() {
-  return <>
-  <Button size="default" variant={"outline"}>Hi</Button>
-  </>;
+export default function SetupPage() {
+  return <div className="p-4">
+      <UserButton />
+  </div>;
 }
  
